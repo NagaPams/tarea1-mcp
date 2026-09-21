@@ -2,13 +2,13 @@
 
 ## Datos de identificación
 
-- **Nombre:** _pendiente_
-- **Boleta:** _pendiente_
-- **Grupo:** _pendiente_
+- **Nombre:** Hervey Gabriel Gutierrez Prats
+- **Boleta:** 2022630373
+- **Grupo:** 7CV
 
 ## Resumen de la actividad
 
-_Pendiente: 1 o 2 párrafos con tus palabras._
+
 
 ## Índice de documentos
 
@@ -19,7 +19,6 @@ _Pendiente: 1 o 2 párrafos con tus palabras._
 5. [El servidor de sistema de archivos](docs/05-servidor-fs.md)
 6. [Seguridad](docs/06-seguridad.md)
 7. [Casos de uso](docs/07-casos-de-uso.md)
-8. [Referencias](docs/referencias.md)
 
 ## MCP vs API
 
@@ -42,7 +41,7 @@ _Pendiente: capturas en `img/` (listar, leer, crear, modificar, buscar y prueba 
 
 ## Conclusiones personales
 
-_Pendiente._
+
 
 ## Referencias
 
