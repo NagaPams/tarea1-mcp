@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/home/pams/GitHub/tarea1-mcp/workspace-mcp"
+      ],
+      "env": {}
+    }
+  }
+}
