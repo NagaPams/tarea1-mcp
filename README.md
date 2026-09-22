@@ -1,12 +1,12 @@
 # Tarea 1: MCP y servidor de sistema de archivos
 
-## Datos de identificación
+## Datos
 
 - **Nombre:** Hervey Gabriel Gutierrez Prats
 - **Boleta:** 2022630373
 - **Grupo:** 7CV4
 
-## Resumen de la actividad
+## Resumen
 
 Esta actividad investiga cómo un modelo de lenguaje pasa de estar aislado (solo recibe y devuelve texto) a poder operar sobre archivos locales mediante el *Model Context Protocol* (MCP), y documenta la instalación, verificación y prueba de límites del servidor MCP de referencia para sistema de archivos, conectado a Claude Code.
 
