@@ -118,7 +118,7 @@ Se solicitó al modelo leer `/etc/hostname` usando explícitamente `read_text_fi
 
 El mecanismo que impidió la operación no es un permiso de Claude Code, sino la **validación de rutas del propio servidor MCP**: antes de ejecutar cualquier herramienta, el proceso `server-filesystem` compara la ruta solicitada contra su lista de directorios permitidos (la definida por `.mcp.json` o, si el cliente soporta *Roots*, la que este declaró) y rechaza toda ruta que quede fuera de esa lista, sin llegar a tocar el disco.
 
-## Conclusiones personales
+## Conclusiones
 La implementación del servidor filesystem mediante MCP evidencia un cambio arquitectónico crucial para los agentes de IA, destacando dos principios fundamentales:
 
 MCP reemplaza las integraciones a medida con un contrato universal. Esto permite al modelo descubrir dinámicamente sus herramientas y pasar de ser un simple procesador de texto aislado a un agente capaz de interactuar con el entorno local.
