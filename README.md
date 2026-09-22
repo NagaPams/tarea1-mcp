@@ -82,8 +82,6 @@ Esto genera un archivo `.mcp.json` **dentro de `workspace-mcp/`**, con el siguie
 }
 ```
 
-> **Nota importante sobre *Roots*:** el servidor filesystem, si el cliente soporta el mecanismo MCP de *Roots*, reemplaza los directorios pasados por línea de comandos con el directorio raíz que declara el cliente (que en Claude Code es el directorio desde el que se abre la sesión). Por eso el `.mcp.json` debe colocarse dentro de `workspace-mcp/` y Claude Code debe abrirse **desde esa carpeta**, y no desde la raíz del repositorio; de lo contrario el servidor queda delimitado al repositorio completo en vez de al directorio pensado para la tarea. Ver evidencia en [`img/antes-de-corregir-root/`](img/antes-de-corregir-root/).
-
 ### 3. Abrir Claude Code desde el directorio autorizado y verificar
 
 ```bash
